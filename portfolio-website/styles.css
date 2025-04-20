@@ -1,0 +1,132 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #0f1117;
+    color: #ffffff;
+}
+
+.topnav {
+    background-color: #1c1e26;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.topnav a {
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.topnav a:hover {
+    background-color: #04AA6D;
+    color: #000;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 5px;
+}
+
+.hero {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    opacity: 0.8;
+}
+
+.home-container {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.profile-pic {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #04AA6D;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin-right: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+
+.about-me-text {
+    background-color: #1a1c23;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    transition: all 0.3s ease-in-out;
+}
+
+.about-me-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #04AA6D;
+}
+
+.about-me-text p {
+    margin-bottom: 1rem;
+}
+
+.about-me-text p strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.about-me-text .intro {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+
+.links-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.links-container a {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.links-container a:hover {
+    background-color: #037f53;
+}
